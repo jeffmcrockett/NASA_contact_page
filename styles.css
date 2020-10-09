@@ -13,17 +13,28 @@ h2 {
 }
 
 form {
-    margin-left: 25px;=
+    margin-left: 25px;
 }
 
-input {
+.Name {
     width: 200px;
     height: 25px;
     border: none;
 }
 
+.Message {
+    width: 200px;
+    height: 75px;
+    border: none;
+    text-transform: wrap;
+}
+
+.textarea {
+    height: 60px;
+}
+
 .main-container header {
-    background-image: url('./astronaut.png');
+    background-image: url('./astronaut.jpg');
     background-size: cover;
     height: 450px;
     width: 850px;
@@ -35,7 +46,7 @@ input {
 }
 
 .column {
-    margin-top: 15px;
+    margin-top: 25px;
     float: left;
     width: 283px;
     height: 324px;
