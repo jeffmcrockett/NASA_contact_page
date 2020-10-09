@@ -1,19 +1,50 @@
 body {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Abel', sans-serif;
 }
 
 p {
-    font-family: 'Anton', sans-serif;
+    margin-left: 25px;
+    margin-top: 15px;
+    line-height: 24px;
 }
 
-.main-container {
+h2 {
+    margin-left: 25px;
+}
 
+form {
+    margin-left: 25px;=
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    border: none;
 }
 
 .main-container header {
-    background-image: url('astronaut.png');
+    background-image: url('./astronaut.png');
+    background-size: cover;
+    height: 450px;
+    width: 850px;
 }
 
 .NASA-text {
     color: white;
+    text-align: center;
 }
+
+.column {
+    margin-top: 15px;
+    float: left;
+    width: 283px;
+    height: 324px;
+    background-color: lightgray;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
