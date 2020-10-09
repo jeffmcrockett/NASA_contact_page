@@ -26,7 +26,6 @@ form {
     width: 200px;
     height: 75px;
     border: none;
-    text-transform: wrap;
 }
 
 .textarea {
@@ -50,7 +49,7 @@ form {
     float: left;
     width: 283px;
     height: 324px;
-    background-color: lightgray;
+    background-color: #E6E6E6;
   }
   
   /* Clear floats after the columns */
