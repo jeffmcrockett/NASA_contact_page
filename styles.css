@@ -1,0 +1,19 @@
+body {
+    font-family: 'Anton', sans-serif;
+}
+
+p {
+    font-family: 'Anton', sans-serif;
+}
+
+.main-container {
+
+}
+
+.main-container header {
+    background-image: url('astronaut.png');
+}
+
+.NASA-text {
+    color: white;
+}
